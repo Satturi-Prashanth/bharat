@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Application Portal</title>
+  <style>
+    body {
+      background-image: url('https://media.istockphoto.com/vectors/blue-sky-with-white-clouds-background-border-of-clouds-simple-cartoon-vector-id1138179296?b=1&k=20&m=1138179296&s=170667a&w=0&h=bwO0nIT7Xglgw0xayS5hqRrfT6ypYqqGOKBQpVaSebM=');
+      background-size: cover; 
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      padding: 50px;
+      margin: 0;
+      color: white; /* Text color for better contrast on the background image */
+      overflow: hidden;
+      border: 4px double #000; /* Double border with black color */
+    }
+    
+
+    form {
+      max-width: 600px; /* Increased width for better layout */
+      margin: auto;
+      font-size: x-large;
+      color: black;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two columns for layout */
+      gap: 70px; /* Added gap between columns */
+    } ul{
+      color: #000;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #abbaba;
+  color: #000;
+  margin-top: 27%;
+}
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      color: #004080;
+      font-size: xx-large;
+      text-align: center;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+    /* Additional styling for the second column */
+    div:nth-child(2) {
+      grid-column: span 1; /* Occupy one column */
+    }
+
+    /* Navigation bar styles */
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+
+    nav button {
+      margin-left: 10px;
+    }
+
+    /* Additional styling for the paragraphs and heading */
+    h1, p1, p2, p3 ,h3 {
+      color: black;
+    }
+
+    p1, p2 {
+      font-size: larger;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav>
+    <button onclick="window.location.href='/login'">Login</button>
+    <button onclick="window.location.href='/register'">Register</button>
+    <button onclick="window.location.href='/contact'">Contact Us</button>
+  </nav>
+  <!-- Add this line for the registration link -->
+  
+
+
+  <h2><u>Apply for Loan!</u></h2>
+  <h3>Welcome!</h3>
+  <p1>This web page serves as the interface for employees to apply for a loan. To initiate the loan application process, employees are required to provide essential details.
+
+  </p1><p2> The form, designed with a user-friendly layout, prompts users to input their </p2>
+
+    <ul><li>First Name</li> <li> Name</li><li>Father Name</li><li>Company Name</li><li> ID Number</li> <li>Designation</li><li>desired Loan Amount</li>
+  <p1>The layout is structured in two columns, enhancing the visual appeal and user experience. Additionally, a navigation bar at the top allows users to easily navigate to other sections such as login, registration, and contact information.</p1>
+  
+  
+ 
+</div>
+
+</body>
+
+<footer><small>Copyright©2024 Loan@money. All Rights Reserved.</small></footer>
+</html>

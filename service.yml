@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: Loan-service
+spec:
+  ports:
+  - port: 80
+    targetPort: 3009
+  selector:
+    app: your-app
+  type: LoadBalancer
